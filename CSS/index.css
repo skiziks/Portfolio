@@ -1,17 +1,46 @@
-*{
-    margin: 0;
-}
 body{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-    background: radial-gradient(43.59% 67.15% at 50% 50%,
-    #3D48A7 13.33%, 
+    background: radial-gradient(53.59% 32.15% at 50% 40%,
+    #3D48A7, 
     #1C2789 52.92%, #00095F 100%);
     overflow: hidden;
 }
-
+html{
+    position: relative;
+    width: fit-content;
+    height: 900px;
+}
 
 /* header */
 
+header{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    width: fit-content;
+    margin: auto;
 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #BA84FF;
+
+    text-shadow: 0px -1px 8px rgba(211, 177, 255, 0.71);
+}
+
+a {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #BA84FF;
+    filter: drop-shadow(0px -1px 13px #BA84FF);
+    border-radius: 14px;
+}
