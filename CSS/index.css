@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+body{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: radial-gradient(43.59% 67.15% at 50% 50%,
+    #3D48A7 13.33%, 
+    #1C2789 52.92%, #00095F 100%);
+    overflow: hidden;
+}
+
+
+/* header */
+
+
