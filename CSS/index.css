@@ -2,7 +2,8 @@ body{
     background: radial-gradient(53.59% 32.15% at 50% 40%,
     #3D48A7, 
     #1C2789 52.92%, #00095F 100%);
-    overflow: hidden;
+    overflow: auto;
+    color: white;
 }
 html{
     position: relative;
@@ -36,6 +37,11 @@ h1{
 
     text-shadow: 0px -1px 8px rgba(211, 177, 255, 0.71);
 }
+p {
+    padding: 30px;
+}
+
+/* mise en place des boutons et de leur hover */
 
 a {
     padding: 20px;
@@ -43,4 +49,29 @@ a {
     border: 2px solid #BA84FF;
     filter: drop-shadow(0px -1px 13px #BA84FF);
     border-radius: 14px;
+    transition: 1s;
+
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
+a:hover{
+    background: #BA84FF;
+    border: 2px solid #BA84FF;
+    box-shadow: 0px -1px 13px #BA84FF;
+    border-radius: 14px;
+    transition: 1s;
+}
+#btns {
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
