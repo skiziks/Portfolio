@@ -2,11 +2,13 @@ body{
     background: radial-gradient(53.59% 32.15% at 50% 40%,
     #3D48A7, 
     #1C2789 52.92%, #00095F 100%);
-    overflow: auto;
+    overflow:visible;
     color: white;
     margin: auto;
     background-attachment: fixed;
 }
+
+
 html{
     position: relative;
     width: fit-content;
@@ -49,7 +51,7 @@ html{
 
         /* mise en place des boutons et de leur hover */
 
-        a {
+        .liens {
             width: 100%;
             padding: 20px;
             box-sizing: border-box;
@@ -67,7 +69,7 @@ html{
             line-height: 24px;
             text-decoration: none;
         }
-        a:hover{
+        .liens:hover{
             background: #BA84FF;
             border: 2px solid #BA84FF;
             box-shadow: 0px -1px 13px #BA84FF;
@@ -89,16 +91,32 @@ html{
 
 
         footer{
-            border: solid;
-            width: 100%;
-            height: 200px;
+            height: 150px;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            background: linear-gradient(to top, rgba(186, 132, 255, 0.5), rgb(1, 8, 91) 100%);
+        }
+
+        footer p{
+            align-self: center;
+        }
+
+        .liens_footer{
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .liens_footer img {
+            width: 35px;
         }
         
 
 /* version tablette */
 
         @media screen and (min-width: 600px) and (max-width: 1170px) {
-            a {
+            .liens {
                 width: 40vw;
                 margin-bottom: 40px;
             }
@@ -114,7 +132,7 @@ html{
         @media screen and (min-width: 1170px) {
 
             body{
-                overflow:scroll;
+                overflow:auto;
             }
 
             section{
@@ -139,7 +157,7 @@ html{
                 height: 60%;
             }
 
-            a{
+            .liens{
                 width: 40%;
                 height: fit-content;
             }
@@ -149,8 +167,8 @@ html{
         }
 
 
-        @media screen and (min-height: 700px) {
-            body{
-                overflow: hidden;
-            }
-        }
+
+
+
+
+        
