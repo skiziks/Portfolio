@@ -1,18 +1,21 @@
+
+
 body{
     background: radial-gradient(53.59% 32.15% at 50% 40%,
     #3D48A7, 
     #1C2789 52.92%, #00095F 100%);
-    overflow:visible;
+    overflow: visible;
     color: white;
     margin: auto;
     background-attachment: fixed;
+    width: 100%;
+    margin: auto;
 }
-
 
 html{
     position: relative;
     width: fit-content;
-    height: 900px;
+    height: 100vh;
 }
 
 /*version mobile*/
@@ -94,12 +97,13 @@ html{
             height: 150px;
             margin: 0;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             background: linear-gradient(to top, rgba(186, 132, 255, 0.5), rgb(1, 8, 91) 100%);
         }
 
         footer p{
             align-self: center;
+            padding: 0;
         }
 
         .liens_footer{
@@ -107,6 +111,7 @@ html{
             display: flex;
             justify-content: space-around;
             align-items: center;
+            padding-bottom: 0px;
         }
         .liens_footer img {
             width: 35px;
@@ -125,15 +130,15 @@ html{
                 flex-direction: row;
                 height: fit-content;
             }
+            .liens_footer{
+                margin-top: 70px;
+            }
         }
 
 /* version laptop */
 
         @media screen and (min-width: 1170px) {
 
-            body{
-                overflow:auto;
-            }
 
             section{
                 font-size: 1.5em;
@@ -164,11 +169,12 @@ html{
             h1{
                 font-size: 3.5em;
             }
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            .liens_footer{
+                margin-top: 70px;
+            }
         }
-
-
-
-
-
-
-        
