@@ -114,7 +114,12 @@ html{
             padding-bottom: 0px;
         }
         .liens_footer img {
-            width: 35px;
+            width: 40px;
+            transition: 0.5s;
+        }
+        .liens_footer img:hover {
+            scale: 1.3;
+            transition: 0.8s;
         }
         
 
