@@ -18,6 +18,11 @@ html{
     height: 100vh;
 }
 
+footer {
+  width: fit-content;
+  margin: auto;
+}
+
 /*version mobile*/
 
         /* header */
@@ -91,13 +96,7 @@ html{
         }
 
         
-        /*footer*/
-
-
-        footer{
-            width: fit-content;
-        }
-
+        
         
 
 /* version tablette */
@@ -147,16 +146,6 @@ html{
             }
             h1{
                 font-size: 3.5em;
-            }
-            footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                justify-content: center;
-            }
-            footer p {
-                width: fit-content;
-                margin: auto;
             }
         }
 
