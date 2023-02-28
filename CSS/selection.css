@@ -102,13 +102,38 @@ section {
 .disappear {
   display: none;
 }
-.red {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+
+/* Nav bar */
+
+#nav_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  height: 50px;
+  width: 70%;
+  align-content: center;
+  border-radius: 50px;
 }
-.green {
-  background-color: green;
-  width: 200px;
-  height: 200px;
+
+#btnWeb::before {
+  content: '';
+  background-color: blueviolet;
+  width: 15%;
+  height: 50px;
+  border-radius: 50px;
+  transform: translateY(-16px);
+  position: absolute;
+  left: 15%;
+  z-index: -1;
+  cursor: default;
+}
+
+#btnWeb, #btnJeux, #btnGraph, #btnAud {
+  z-index: 1;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border: solid;
+  border-radius: 10px;
 }
