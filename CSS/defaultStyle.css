@@ -5,9 +5,25 @@ footer {
     width: fit-content;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 
- /**
+/* HEADER */
+
+#logo {
+    position: absolute;
+    margin: 10px;
+    width: 70px;
+    border-radius: 70px;
+}
+ @media screen and (max-width: 700px) {
+    #logo {
+        margin-top: -40px;
+        box-sizing: border-box;
+    }
+ }
+
+            /**
                 Hamburger
             **/
             
