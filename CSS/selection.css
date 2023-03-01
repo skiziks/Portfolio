@@ -2,7 +2,7 @@ body {
     background: radial-gradient(53.59% 32.15% at 50% 40%,
     #3D48A7, 
     #1C2789 52.92%, #00095F 100%);
-    overflow: auto;
+    overflow: visible;
     color: white;
     margin: auto;
     background-attachment: fixed;
@@ -18,6 +18,19 @@ section {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 100px;
+}
+h1 {
+  width: fit-content;
+  margin: 30px auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #BA84FF;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  text-shadow: 0px -1px 8px rgba(211, 177, 255, 0.71);
 }
 
 /*  */
@@ -85,12 +98,22 @@ section {
   }
   .card:hover {
     scale: 1.2;
+    cursor: default;
   }
   
   .card:hover img {
     transition: .3s ease-in;
     opacity: 1;
     filter: blur(8px);
+  }
+  .button {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .button:hover {
+    color: black;
+    background-color: beige;
+    transition: ease 0.2s;
   }
 
 

@@ -1,0 +1,44 @@
+@import url(./defaultStyle.css);
+
+main p {
+    margin-bottom: 30px;
+}
+
+main video {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+        article {
+            height: 450px;
+            width: 100%;
+
+            background-image: url("./../Images/jpg/video.jpg");
+            background-size: 1100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            margin: 0;
+        }
+}
+@media screen and (min-width: 1000px) {
+
+    article {
+        height: 450px;
+        width: 100%;
+
+        background-image: url(./../Images/jpg/video.jpg);
+        background-size: 1800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin: 0;
+    }
+}

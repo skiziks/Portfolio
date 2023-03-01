@@ -7,21 +7,21 @@ footer {
     margin-top: 50px;
     margin-bottom: 10px;
 }
+main {
+    width: 80%;
+    margin: auto;
+}
+
 
 /* HEADER */
 
 #logo {
     position: absolute;
-    margin: 10px;
+    top: 30px;
+    left: 10px;
     width: 70px;
     border-radius: 70px;
 }
- @media screen and (max-width: 700px) {
-    #logo {
-        margin-top: -40px;
-        box-sizing: border-box;
-    }
- }
 
             /**
                 Hamburger
@@ -162,6 +162,7 @@ footer {
                     margin: auto;
                     margin-top: 10%;
                     margin-bottom: 10%;
+                    padding: 5px;
         
                     font-family: 'Inter';
                     font-style: normal;
@@ -171,7 +172,8 @@ footer {
         
         
                     color: #BA84FF;
-        
+                    border-radius: 10px;
+                    backdrop-filter: blur(10px);
                     text-shadow: 0px -1px 8px rgba(211, 177, 255, 0.71);
                 }
 

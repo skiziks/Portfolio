@@ -20,7 +20,9 @@ html{
 
 footer {
   width: fit-content;
-  margin: auto;
+  margin-left: 45vw;
+  position: fixed;
+  bottom: 0;
 }
 
 /*version mobile*/
