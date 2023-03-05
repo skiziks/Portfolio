@@ -17,14 +17,12 @@ html{
     width: fit-content;
     height: 100vh;
 }
-
 footer {
   width: fit-content;
-  margin-left: 45vw;
-  position: fixed;
-  bottom: 0;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
-
 /*version mobile*/
 
         /* header */
