@@ -17,13 +17,9 @@ figure {
     width: fit-content;
     margin: auto;
 }
-img {
+.images {
     width: 75vw;
     border-radius: 20px;
-}
-.logo {
-    width: 150px;
-    background-color:darkorchid;
 }
 .image_2Vordinateur {
     display: none;
@@ -31,8 +27,6 @@ img {
 .image_2Vtelephone {
     margin: 20px 0px;
 }
-
-
 
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
@@ -54,7 +48,7 @@ img {
         margin: 0;
     }
     
-    img {
+    .images {
         width: 40vw;
     }
 
@@ -64,17 +58,14 @@ img {
         gap: 30px;
         justify-content: center;
         align-items: center;
-        /* border: solid red; */
     }
 
     .div_a_propos {
         width: 50%;
-        /* border: solid; */
     }
 
     .image_1 {
         width: 50%;
-        /* border: solid green; */
     }
 
     /* Deuxième section avec les aspects techniques  */
@@ -100,11 +91,9 @@ img {
         height: fit-content;
     }
 
-    /* Css pour le carousel */
-
-    
-    
-    /* fin du css du carousel */
+    #menu {
+        position: absolute;
+    }
 
 
 }
@@ -139,7 +128,7 @@ img {
         margin: 0;
     }
     
-    img {
+    .images {
         width: 40vw;
     }
 
@@ -183,5 +172,9 @@ img {
     .div_technique {
         padding: 0px;
         height: fit-content;
+    }
+
+    #menu {
+        position: absolute;
     }
 }

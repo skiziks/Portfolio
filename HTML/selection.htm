@@ -9,100 +9,142 @@
     <title>Portfolio Nicolas Lerond</title>
 </head>
   <body>
-
-          <input id="toggle" type="checkbox"></input>
-    
-            <label for="toggle" class="hamburger">
-                <div class="top-bun"></div>
-                <div class="meat"></div>
-                <div class="bottom-bun"></div>
-            </label>
-            <div class="nav">
-                <div class="nav-wrapper">
-                  <nav>
-                    <a href="https://github.com/skiziks" target="_blank">
-                        <i class="fa-brands fa-github"></i>  Github
-                    </a><br>
-                    <a href="https://www.linkedin.com/in/nicolas-lerond/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>  LinkedIn
-                    </a><br>
-                    <a href="mailto:lerond.nicolas@gmail.com">
-                        <i class="fa-regular fa-envelope"></i> lerond.nicolas<br>@gmail.com
-                    </a><br>
-                    <a href="tel:+33783289598">
-                        <i class="fa-solid fa-mobile-screen-button"></i> Tel : +33783289598
-                    </a>
-                  </nav>
-                </div>
-            </div>
+    <header>
+      <a href="./../index.html" id="menu" class="learn-more">
+        <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Menu</span>
+      </a>
+    </header>
 
 
 
     <h1>Portfolio</h1>
 
       <section id="nav_items">
-          <a id="btnWeb" href="#">Web</a>
-          <a id="btnJeux" href="#">Jeux / applications</a>
-          <a id="btnGraph" href="#">Graphisme</a>
-          <a id="btnAud" href="#">Audiovisuel</a>
+          <button id="btnWeb" data-text="Awesome" class="bouton">
+            <span class="actual-text">&nbsp;Web&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;Web&nbsp;</span>
+          </button>
+          <button id="btnJeux" data-text="Awesome" class="bouton">
+            <span class="actual-text">&nbsp;Jeux/applications&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;Jeux/applications&nbsp;</span>
+          </button>
+          <button id="btnAud" data-text="Awesome" class="bouton">
+            <span class="actual-text">&nbsp;Audiovisuel&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;Audiovisuel&nbsp;</span>
+          </button>
+          <button id="btnGraph" data-text="Awesome" class="bouton">
+            <span class="actual-text">&nbsp;Graphisme&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;Graphisme&nbsp;</span>
+          </button>
       </section>
       
       <article>
         <section id="Web" class="appear">
-          <div class = "card">
-            <img src="./../Images/png/siteCV/img1.png" alt="">
-            <div class="card-content">
-              <h2><span class="noir">Site CV</span></h2>
-              <p>Un site qui représente mon CV et quelques éléments de mon portfolio en anglais.</p>
-              <a href="./../HTML/webType.htm" class="button">Détails <i class="fa-solid fa-arrow-right"></i></a>
+          <h2>Sites Webs</h2>
+          <div class="cards">
+            <div class = "card">
+              <img src="./../Images/png/siteCV/img1.png" alt="image de présentation pour le projet site CV">
+              <div class="card-content">
+                <h3><span class="noir">Site CV</span></h3>
+                <p>Un site qui représente mon CV et quelques éléments de mon portfolio en anglais.</p>
+                <a href="./../HTML/webType.htm" class="button">Détails <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </section>
 
         <section id="jeux" class=" appear disappear">
-          <div class = "card">
-            <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
-            <div class="card-content">
-              <h2>Card Heading</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.</p>
-              <a href="./jeuxType.htm" class="button">Find out more <span class="material-symbols-outlined">arrow_right_alt</span></a>
+          <h2>Jeux / Apllications</h2>
+          <div class="cards">
+            <div class = "card">
+              <img src="./../Images/png/siteCV/img1.png" alt="">
+              <div class="card-content">
+                <h3><span class="noir">Site CV</span></h3>
+                <p>Un site qui représente mon CV et quelques éléments de mon portfolio en anglais.</p>
+                <a href="./../HTML/jeuxType.htm" class="button">Détails <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
           </div>
-          <div class = "card">
-            <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
-            <div class="card-content">
-              <h2>Card Heading</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.</p>
-              <a href="#" class="button">Find out more <span class="material-symbols-outlined">arrow_right_alt</span></a>
+        </section>
+
+        <section id="Aud" class="appear disappear">
+          <h2>Audiovisuel</h2>
+          <div class="cards">
+            <div class = "card">
+              <img src="./../Images/png/siteCV/img1.png" alt="">
+              <div class="card-content">
+                <h3><span class="noir">Site CV</span></h3>
+                <p>Un site qui représente mon CV et quelques éléments de mon portfolio en anglais.</p>
+                <a href="./../HTML/audType.htm" class="button">Détails <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </section>
 
         <section id="Graph" class="appear disappear">
-          
-        </section>
-
-        <section id="Aud" class="appear disappear">
-          <div class = "card">
-            <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
-            <div class="card-content">
-              <h2>Card Heading</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.</p>
-              <a href="./audType.htm" class="button">Find out more <span class="material-symbols-outlined">arrow_right_alt</span></a>
-            </div>
-          </div>
-          <div class = "card">
-            <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
-            <div class="card-content">
-              <h2>Card Heading</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.</p>
-              <a href="#" class="button">Find out more <span class="material-symbols-outlined">arrow_right_alt</span></a>
+          <h2>Graphisme</h2>
+          <div class="cards">
+            <div class = "card">
+              <img src="./../Images/png/siteCV/img1.png" alt="">
+              <div class="card-content">
+                <h3><span class="noir">Site CV</span></h3>
+                <p>Un site qui représente mon CV et quelques éléments de mon portfolio en anglais.</p>
+                <a href="./../HTML/webType.htm" class="button">Détails <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </section>
 
       </article>
+
+
+      <footer>
+        <section id="footer">
+
+            <a target="_blank" class="contacts" href="https://github.com/skiziks">
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <img class="logo logo1" src="./../Images/png/github.png" alt="logo_github">
+                </div>
+              </div>
+              <span>Github</span>
+            </a>
+
+            <a target="_blank" class="contacts" href="https://www.linkedin.com/in/nicolas-lerond/">
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <img class="logo logo2" src="./../Images/png/linkedin.png" alt="logo_linkedin">
+                </div>
+              </div>
+              <span>LinkedIn</span>
+            </a>
+
+            <a target="_blank" class="contacts" href="mailto:lerond.nicolas@gmail.com">
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <img class="logo logo3" src="./../Images/png/mail.png" alt="logo_mail">
+                </div>
+              </div>
+              <span>Mail</span>
+            </a>
+
+
+            <a class="contacts" href="#">
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <img class="logo logo4" src="./../Images/png//CV.png" alt="logo_mail">
+                </div>
+              </div>
+              <span>CV</span>
+            </a>
+
+        </section>
+        <p>&copy;  skiziks</p>
+      </footer>
+
   </body>
   <script src="./../js/selection.js"></script>
-  <script src="./../js/burger.js"></script>
 </html>
