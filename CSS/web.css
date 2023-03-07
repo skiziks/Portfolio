@@ -135,6 +135,9 @@ main {
             h1 {
                 margin: 0;
             }
+            #menu {
+                position: absolute;
+            }
         }
 
         /* VERSION PC */
@@ -162,5 +165,8 @@ main {
             }
             h1 {
                 margin: 0;
+            }
+            #menu {
+                position: absolute;
             }
         }

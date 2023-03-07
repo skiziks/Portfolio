@@ -25,6 +25,12 @@ main video {
         h1 {
             margin: 0;
         }
+        h2 {
+            margin-top: 50px;
+        }
+        #menu {
+            position: absolute;
+        }
 }
 @media screen and (min-width: 1000px) {
 
@@ -40,5 +46,11 @@ main video {
     }
     h1 {
         margin: 0;
+    }
+    h2 {
+        margin-top: 50px;
+    }
+    #menu {
+        position: absolute;
     }
 }
