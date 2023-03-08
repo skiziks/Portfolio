@@ -340,15 +340,18 @@ article {
 
 /* Back to top */
 
-.btt_link {
+.btt {
+  width: 140px;
+  height: 56px;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  background: none;
   position: relative;
   left: 90vw;
   margin-top: 30px;
-  margin-bottom: 50px;
-  transform: translateX(-60px);
-  width: fit-content;
-  height: fit-content;
-  display: block;
+  transform: translateX(-110px);
+  padding-bottom: 2em;
 }
 
 .btt:hover {
