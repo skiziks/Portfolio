@@ -546,3 +546,110 @@ footer {
   .logo {
     width: 35px;
   }
+
+
+
+  /* Debut slider */
+
+  /* SLIDER */
+
+
+/* Set variables for size */
+:root {
+  --size-width: 500px;
+  --size-height: 350px;
+  }
+  
+  /* Set styles for carousel wrapper */
+  .carousel-wrapper {
+  width: calc(var(--size-width));
+  height: calc(var(--size-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  margin: 60px auto 20px;
+  margin-bottom: 60px;
+  }
+  
+  /* Set styles for carousel container */
+  .carousel-container {
+  width: var(--size-width);
+  height: var(--size-height);
+  overflow: hidden;
+  }
+  
+  /* Set styles for carousel */
+  .carousel {
+  display: flex;
+  width: calc(var(--size-width) * 3);
+  animation: sliding 10s infinite;
+  }
+  
+  /* Set styles for carousel items */
+  .carousel > div {
+  width: var(--size-width);
+  height: var(--size-height);
+  background-size: cover;
+  background-position: center;
+  }
+  
+  
+  /* Set animation for sliding carousel */
+  @keyframes sliding {
+    30% {
+    transform: translateX(0);
+    }
+    35% {
+    transform: translateX(calc(-1 * var(--size-width)));
+    }
+    65% {
+    transform: translateX(calc(-1 * var(--size-width)));
+    }
+    70% {
+    transform: translateX(calc(-1 * var(--size-width) * 2));
+    }
+    98% {
+    transform: translateX(calc(-1 * var(--size-width) * 2));
+    }
+    100% {
+    transform: translateX(0);
+    }
+  }
+
+  
+  /* Set styles for carousel on smaller screens  */
+  @media screen and (max-width: 700px) {
+  /*  Update size variables */
+  :root {
+  --size-width: 300px;
+  --size-height: 200px;
+  }
+  
+  /* Update styles for carousel wrapper */
+  .carousel-wrapper {
+  width: calc(var(--size-width));
+  height: calc(var(--size-height));
+  }
+  
+  /* Update styles for carousel container */
+  .carousel-container {
+  width: var(--size-width);
+  height: var(--size-height);
+  }
+  
+  /* Update styles for carousel items */
+  .carousel > div {
+  width: var(--size-width);
+  height: var;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+      --size-width: 800px;
+      --size-height: 500px;
+  }
+}
+
+  /* Fin Slider */
