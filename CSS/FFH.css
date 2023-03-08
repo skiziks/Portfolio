@@ -1,0 +1,15 @@
+/* Set background images for carousel items */
+.carousel .image-one {
+    border-radius: 20px;
+    background-image: url("./../Images/FFH/img3.png");
+}
+
+.carousel .image-two {
+    border-radius: 20px;
+    background-image: url("./../Images/FFH/img2.png");
+}
+
+.carousel .image-three {
+    border-radius: 20px;
+    background-image: url("./../Images/FFH/technique2.png");
+}

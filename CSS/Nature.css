@@ -1,0 +1,25 @@
+:root {
+    --size: 175px;
+    --repeat: no-repeat;
+}
+/* Set background images for carousel items */
+.carousel .image-one {
+    border-radius: 20px;
+    background-image: url("./../Images/NatureEmoi/unknown1.png");
+    background-size: var(--size);
+    background-repeat: var(--repeat);
+}
+
+.carousel .image-two {
+    border-radius: 20px;
+    background-image: url("./../Images/NatureEmoi/unknown2.png");
+    background-size: var(--size);
+    background-repeat: var(--repeat);
+}
+
+.carousel .image-three {
+    border-radius: 20px;
+    background-image: url("./../Images/NatureEmoi/unknown3.png");
+    background-size: var(--size);
+    background-repeat: var(--repeat);
+}

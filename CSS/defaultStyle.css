@@ -340,6 +340,21 @@ article {
 
 /* Back to top */
 
+.btt_link {
+  position: relative;
+  left: 90vw;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  transform: translateX(-60px);
+  width: fit-content;
+  height: fit-content;
+  display: block;
+}
+
+.btt:hover {
+  cursor: pointer;
+}
+
 .btt {
   width: 140px;
   height: 56px;
@@ -348,10 +363,6 @@ article {
   color: #fff;
   background: none;
   position: relative;
-  left: 90vw;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  transform: translateX(-60px);
   padding-bottom: 2em;
 }
 
