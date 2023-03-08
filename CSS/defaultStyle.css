@@ -123,8 +123,21 @@ main {
     margin: auto;
 }
 p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
 }
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  p {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1000px) {
+  p {
+    font-size: x-large;
+  }
+}
+
+
 article {
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -296,7 +309,7 @@ article {
 
                 h2 {
                     width: fit-content;
-                    margin-top: 10px;
+                    margin-top: 50px;
                     margin-bottom: 5%;
         
                     font-family: 'sous-titre';
@@ -308,6 +321,11 @@ article {
         
         
                     color: #BA84FF;
+                }
+
+                h3 {
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  color: #BA84FF;
                 }
 
                 body {

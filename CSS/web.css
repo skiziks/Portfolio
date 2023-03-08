@@ -54,17 +54,17 @@ main {
     /* Set background images for carousel items */
     .carousel .image-one {
         border-radius: 20px;
-        background-image: url("./../Images/png/siteCV/img1.png");
+        background-image: url("./../Images/siteCV/img1.png");
     }
     
     .carousel .image-two {
         border-radius: 20px;
-        background-image: url("./../Images/png/siteCV/img2.png");
+        background-image: url("./../Images/siteCV/img2.png");
     }
     
     .carousel .image-three {
         border-radius: 20px;
-        background-image: url("./../Images/png/siteCV/img3.png");
+        background-image: url("./../Images/siteCV/img3.png");
     }
     /* Set animation for sliding carousel */
     @keyframes sliding {
@@ -87,6 +87,7 @@ main {
       transform: translateX(0);
       }
     }
+
     
     /* Set styles for carousel on smaller screens  */
     @media screen and (max-width: 700px) {
