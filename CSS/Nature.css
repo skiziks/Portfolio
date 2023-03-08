@@ -1,7 +1,11 @@
 :root {
-    --size: 175px;
+    --size: 300px;
+    /* 175 */
     --repeat: no-repeat;
+    --size-width:300px;
+    --size-height:600px;
 }
+
 /* Set background images for carousel items */
 .carousel .image-one {
     border-radius: 20px;
