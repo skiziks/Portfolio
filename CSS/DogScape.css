@@ -1,0 +1,15 @@
+/* Set background images for carousel items */
+.carousel .image-one {
+    border-radius: 20px;
+    background-image: url("./../Images/DogScape/img2.png");
+}
+
+.carousel .image-two {
+    border-radius: 20px;
+    background-image: url("./../Images/DogScape/img3.png");
+}
+
+.carousel .image-three {
+    border-radius: 20px;
+    background-image: url("./../Images/DogScape/img4.png");
+}

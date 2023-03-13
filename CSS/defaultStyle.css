@@ -350,6 +350,7 @@ article {
   position: relative;
   left: 90vw;
   margin-top: 30px;
+  margin-bottom: 20px;
   transform: translateX(-110px);
   padding-bottom: 2em;
 }

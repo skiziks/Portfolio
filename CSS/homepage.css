@@ -12,6 +12,9 @@
   font-weight: normal;
   font-style: normal;
 }
+#logoSKZ {
+  border-radius: 50px;
+}
 
 body{
     background: radial-gradient(53.59% 32.15% at 50% 40%,
