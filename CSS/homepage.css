@@ -59,7 +59,7 @@ strong {
             font-family: 'titre';
             font-style: normal;
             font-weight: 700;
-            font-size: 48px;
+            font-size: 4em;
             line-height: 58px;
 
 
@@ -217,7 +217,7 @@ footer p {
   font-size: 20px;
   text-decoration: none;
 
-  background: royalblue;
+  background: #3D48A7;
   color: white;
   
   width: 6rem;
