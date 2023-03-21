@@ -180,7 +180,8 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 
-  position: relative;
+  position: absolute;
+  width: 100%;
   bottom: 0;
   z-index: 1;
 }
