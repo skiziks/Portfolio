@@ -428,8 +428,7 @@ p{
 }
 
 
-/* Fin cack to top */
-
+/* Fin back to top */
 
 /* footer  */
 
@@ -438,10 +437,10 @@ footer {
   flex-direction: column;
 
   position: relative;
+  width: 100%;
   bottom: 0;
   margin-top: 50px;
   z-index: 1;
-  margin-top: 45px;
 }
 footer::after{
   content: '';

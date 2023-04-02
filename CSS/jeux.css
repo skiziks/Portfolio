@@ -37,11 +37,9 @@ a {
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
     article {
-        height: 450px;
         width: 100%;
 
         background-image: url(./../Images/png/background_jeux.png);
-        background-size: 1000px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -106,11 +104,9 @@ a {
 
 @media screen and (min-width: 1000px) {
     article {
-        height: 15em;
         width: 100%;
 
         background-image: url(./../Images/png/background_jeux.png);
-        background-size: 1700px;
         display: flex;
         justify-content: center;
         align-items: center;

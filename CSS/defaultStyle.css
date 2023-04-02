@@ -141,6 +141,8 @@ p {
 article {
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
     /* border: solid red 10px; */
 }
 /* HEADER */

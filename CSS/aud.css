@@ -25,7 +25,6 @@ main p {
             width: 100%;
 
             background-image: url("./../Images/jpg/video.jpg");
-            background-size: 1100px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,7 +49,6 @@ main p {
         width: 100%;
 
         background-image: url(./../Images/jpg/video.jpg);
-        background-size: 1800px;
         display: flex;
         justify-content: center;
         align-items: center;
