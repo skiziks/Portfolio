@@ -18,7 +18,7 @@
 
 body{
     background: radial-gradient(53.59% 32.15% at 50% 40%,
-    #3D48A7, 
+    #3D48A7,
     #1C2789 52.92%, #00095F 100%);
     overflow: visible;
     color: white;
@@ -39,7 +39,7 @@ strong {
 /*version mobile*/
 
         /* header */
-
+@media screen and (min-width: 200px) {
         header{
             margin-top: 30px;
             margin-bottom: 50px;
@@ -59,7 +59,7 @@ strong {
             font-family: 'titre';
             font-style: normal;
             font-weight: 700;
-            font-size: 4em;
+            font-size: 3em;
             line-height: 58px;
 
 
@@ -112,74 +112,13 @@ strong {
             justify-content: space-around;
             z-index: 0;
         }
-
-        
-        
-        
-
-/* version tablette */
-
-        @media screen and (min-width: 600px) and (max-width: 1170px) {
-            .liens {
-                width: 40vw;
-                margin-bottom: 40px;
-            }
-
-            #btns {
-                flex-direction: row;
-                height: fit-content;
-            }
-        }
-
-/* version laptop */
-
-        @media screen and (min-width: 1170px) {
-
-
-            section{
-                font-size: 1.5em;
-                display: flex;
-                flex-direction: row;
-                height: 350px;
-            }
-
-            p{
-                flex: 1;
-                align-self: center;
-            }
-
-            #btns{
-                flex: 1;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                align-self: center;
-                height: 60%;
-            }
-
-            .liens{
-                width: 40%;
-                height: fit-content;
-            }
-            h1{
-                font-size: 3.5em;
-            }
-        }
-
-
-
-
-    
-
-
-/* footer  */
+        /* footer  */
 
 footer {
-  display: flex;
-  flex-direction: column;
+  display: block;
 
   position: relative;
+  width: 100%;
   bottom: 0;
   margin-top: 50px;
   z-index: 1;
@@ -284,3 +223,74 @@ footer p {
 .logo {
   width: 35px;
 }
+}
+        
+        
+        
+
+/* version tablette */
+
+        @media screen and (min-width: 768px) {
+            .liens {
+                width: 40vw;
+                margin-bottom: 40px;
+            }
+
+            #btns {
+                flex-direction: row;
+                height: fit-content;
+            }
+            h1{
+                font-size: 4em;
+            }
+            footer {
+              position: relative;
+            }
+        }
+
+/* version laptop */
+
+        @media screen and (min-width: 1300px) {
+
+
+            section{
+                font-size: 1.5em;
+                display: flex;
+                flex-direction: row;
+                height: 350px;
+            }
+
+            p{
+                flex: 1;
+                align-self: center;
+            }
+
+            #btns{
+                flex: 1;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                align-self: center;
+                height: 60%;
+            }
+
+            .liens{
+                width: 40%;
+                height: fit-content;
+            }
+            h1{
+                font-size: 4em;
+            }
+            footer {
+              position: absolute;
+              z-index: -10;
+            }
+        }
+
+
+
+
+    
+
+
