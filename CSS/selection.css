@@ -41,7 +41,7 @@ h1 {
   margin: 10px auto 50px;
   font-style: normal;
   font-weight: 700;
-  font-size: 5em;
+  font-size: 3.5em;
   line-height: 58px;
 
   color: #BA84FF;
@@ -345,7 +345,7 @@ p{
   color: #fff;
   background: none;
   position: relative;
-  left: 90vw;
+  left: 85vw;
   margin-top: 30px;
   transform: translateX(-110px);
   padding-bottom: 2em;
@@ -542,13 +542,16 @@ footer p {
   margin: 20px auto;
 }
 
-@media screen and (min-width:700px) and (max-width:1000px) {
+@media screen and (min-width:700px) {
   #menu {
     position: absolute;
   }
   .card {
     width: 20rem;
     height: 15rem;
+  }
+  h1 {
+    font-size: 4rem;
   }
 }
 

@@ -16,11 +16,32 @@
   border-radius: 50px;
 }
 
+#fleche {
+  padding-left: 20px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-2px);
+  }
+  66% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 body{
     background: radial-gradient(53.59% 32.15% at 50% 40%,
     #3D48A7,
     #1C2789 52.92%, #00095F 100%);
     overflow: visible;
+    overflow-x: hidden;
     color: white;
     margin: auto;
     background-attachment: fixed;
@@ -39,7 +60,6 @@ strong {
 /*version mobile*/
 
         /* header */
-@media screen and (min-width: 200px) {
         header{
             margin-top: 30px;
             margin-bottom: 50px;
@@ -77,6 +97,42 @@ strong {
 
         /* mise en place des boutons et de leur hover */
 
+        #btns {
+          width: fit-content;
+          margin: auto;
+
+          box-sizing: border-box;
+        }
+        .liens {
+          width: fit-content;
+          margin: auto;
+          box-sizing: content-box;
+
+          text-align: center;
+          color: white;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          text-decoration: none;
+          transition: 1s;
+          padding: 15px 30px;
+            
+          border: 2px solid #BA84FF;
+          filter: drop-shadow(0px -1px 13px #BA84FF);
+          border-radius: 14px;
+          transition: 1s;
+          }
+          .liens:hover{
+            background: #BA84FF;
+            border: 2px solid #BA84FF;
+            box-shadow: 0px -1px 13px #BA84FF;
+            border-radius: 14px;
+            transition: 1s;
+        }
+
+        /* 
         .liens {
             width: 100%;
             padding: 20px;
@@ -103,15 +159,13 @@ strong {
             transition: 1s;
         }
         #btns {
-            height: 500px;
-            padding: 30px;
             display: flex;
 
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: space-around;
             z-index: 0;
-        }
+        } */
         /* footer  */
 
 footer {
@@ -223,7 +277,6 @@ footer p {
 .logo {
   width: 35px;
 }
-}
         
         
         
@@ -232,25 +285,40 @@ footer p {
 
         @media screen and (min-width: 768px) {
             .liens {
-                width: 40vw;
-                margin-bottom: 40px;
+                padding: 15px 100px;
             }
 
+            section{
+              font-size: 1em;
+              display: flex;
+              flex-direction: column;
+              height: 350px;
+          }
+
             #btns {
-                flex-direction: row;
-                height: fit-content;
+              width: 100%;
+              height: 100%;
+              display: grid;
+              place-items: center;
             }
             h1{
                 font-size: 4em;
             }
             footer {
               position: relative;
+              bottom: 0;
             }
+        }
+
+        @media screen and (min-width: 768px) {
+          section {
+            font-size: 1.2em;
+          }
         }
 
 /* version laptop */
 
-        @media screen and (min-width: 1300px) {
+        @media screen and (min-width: 1200px) {
 
 
             section{
@@ -266,6 +334,17 @@ footer p {
             }
 
             #btns{
+              width: 40%;
+              height: 100%;
+              display: grid;
+              place-items: center;
+            }
+
+            .liens {
+              padding: 20px 100px;
+            }
+
+            /* #btns{
                 flex: 1;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -278,7 +357,7 @@ footer p {
             .liens{
                 width: 40%;
                 height: fit-content;
-            }
+            } */
             h1{
                 font-size: 4em;
             }
@@ -287,9 +366,6 @@ footer p {
               z-index: -10;
             }
         }
-
-
-
 
     
 
