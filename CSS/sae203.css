@@ -1,0 +1,77 @@
+@import url(./defaultStyle.css);
+
+main {
+    margin: auto;
+    width: 80%;
+}
+
+/* version mobile */
+
+
+        /* Set background images for carousel items */
+  .carousel .image-one {
+    border-radius: 20px;
+    background-image: url("./../Images/sae203/img1.png");
+}
+
+.carousel .image-two {
+    border-radius: 20px;
+    background-image: url("./../Images/sae203/img2.png");
+}
+
+.carousel .image-three {
+    border-radius: 20px;
+    background-image: url("./../Images/sae203/img3.png");
+}
+
+
+        /* TABLETTE VERSION */
+
+        @media screen and (min-width: 700px) and (max-width: 1000px) {
+            .liens {
+                margin-bottom: 50px;
+            }
+            article {
+                width: 100%;
+
+                background-image: url(./../Images/png/web_fond.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h1 {
+                margin: 0;
+            }
+            #menu {
+                position: absolute;
+            }
+        }
+
+        /* VERSION PC */
+
+        @media screen and (min-width: 1000px) {
+            :root {
+                --size-width: 800px;
+                --size-height: 500px;
+            }
+
+            .liens {
+                margin-bottom: 50px;
+                width: 40%;
+            }
+
+            article {
+                width: 100%;
+
+                background-image: url(./../Images/png/web_fond.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h1 {
+                margin: 0;
+            }
+            #menu {
+                position: absolute;
+            }
+        }
