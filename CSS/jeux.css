@@ -4,29 +4,36 @@ h3 {
     margin-bottom: 20px;
     font-size: x-large;
 }
+
 .première_partie_about {
     width: 100%;
     height: fit-content;
-    
+
     margin-bottom: 60px;
 }
+
 .image_1 {
     margin-top: 20px;
 }
+
 figure {
     width: fit-content;
     margin: auto;
 }
+
 .images {
     width: 75vw;
     border-radius: 20px;
 }
+
 .image_2Vordinateur {
     display: none;
 }
+
 .image_2Vtelephone {
     margin: 20px 0px;
 }
+
 a {
     color: inherit;
 }
@@ -51,7 +58,7 @@ a {
     figure {
         margin: 0;
     }
-    
+
     .images {
         width: 40vw;
     }
@@ -111,6 +118,8 @@ a {
         justify-content: center;
         align-items: center;
     }
+
+
     h1 {
         margin: 0;
     }
@@ -129,7 +138,7 @@ a {
     figure {
         margin: 0;
     }
-    
+
     .images {
         width: 40vw;
     }
