@@ -603,3 +603,7 @@ footer p {
   flex-wrap: wrap;
   gap: 50px;
 }
+
+#mockupTel {
+  object-fit: contain;
+}

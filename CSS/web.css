@@ -1,77 +1,114 @@
 @import url(./defaultStyle.css);
 
+:root {
+    --size: 30em;
+    /* 175 */
+    --repeat: no-repeat;
+    --size-width: 300px;
+    --size-height: 600px;
+}
+
 main {
     margin: auto;
     width: 80%;
 }
 
+.div--mockup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
 /* version mobile */
 
 
-        /* Set background images for carousel items */
-  .carousel .image-one {
+/* Set background images for carousel items */
+.carousel .image-one {
     border-radius: 20px;
-    background-image: url("./../Images/siteCV/img1.png");
+    background-image: url("./../Images/png/appConn.png");
+    background-size: var(--size);
+    background-repeat: var(--repeat);
 }
 
 .carousel .image-two {
     border-radius: 20px;
-    background-image: url("./../Images/siteCV/img2.png");
+    background-image: url("./../Images/png/appDetail.png");
+    background-size: var(--size);
+    background-repeat: var(--repeat);
 }
 
 .carousel .image-three {
     border-radius: 20px;
-    background-image: url("./../Images/siteCV/img3.png");
+    background-image: url("./../Images/png/appForm.png");
+    background-size: var(--size);
+    background-repeat: var(--repeat);
 }
 
 
-        /* TABLETTE VERSION */
+@media screen and (max-width: 700px) {
+    .div--mockup {
+        flex-direction: column;
+    }
+}
 
-        @media screen and (min-width: 700px) and (max-width: 1000px) {
-            .liens {
-                margin-bottom: 50px;
-            }
-            article {
-                width: 100%;
+/* TABLETTE VERSION */
 
-                background-image: url(./../Images/png/web_fond.png);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            h1 {
-                margin: 0;
-            }
-            #menu {
-                position: absolute;
-            }
-        }
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .liens {
+        margin-bottom: 50px;
+    }
 
-        /* VERSION PC */
+    article {
+        width: 100%;
 
-        @media screen and (min-width: 1000px) {
-            :root {
-                --size-width: 800px;
-                --size-height: 500px;
-            }
+        background-image: url(./../Images/png/web_fond.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-            .liens {
-                margin-bottom: 50px;
-                width: 40%;
-            }
+    h1 {
+        margin: 0;
+    }
 
-            article {
-                width: 100%;
+    #menu {
+        position: absolute;
+    }
+}
 
-                background-image: url(./../Images/png/web_fond.png);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            h1 {
-                margin: 0;
-            }
-            #menu {
-                position: absolute;
-            }
-        }
+/* VERSION PC */
+
+@media screen and (min-width: 1000px) {
+    :root {
+        --size-width: 800px;
+        --size-height: 500px;
+    }
+
+    .liens {
+        margin-bottom: 50px;
+        width: 40%;
+    }
+
+    article {
+        width: 100%;
+
+        background-image: url(./../Images/png/web_fond.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    #menu {
+        position: absolute;
+    }
+}
+
+.mockup {
+    transform: rotate3d(1, 1, 1, 30deg);
+}
