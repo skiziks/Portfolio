@@ -1,0 +1,21 @@
+/* Set background images for carousel items */
+.carousel .image-one {
+    border-radius: 20px;
+    background-image: url("./../Images/siteGouv/hero.png");
+}
+
+.carousel .image-two {
+    border-radius: 20px;
+    background-image: url("./../Images/siteGouv/footer.png");
+}
+
+.carousel .image-three {
+    border-radius: 20px;
+    background-image: url("./../Images/siteGouv/temoignages.png");
+}
+
+article {
+    background-image: url(./../Images/météo/homepage_desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
