@@ -586,13 +586,13 @@ footer p {
   }
 }
 
-@media screen and (min-width:1450px) {
+/* @media screen and (min-width:1450px) {
   footer {
     position: absolute;
     bottom: 0;
     z-index: -10;
   }
-}
+} */
 
 
 .elements {
